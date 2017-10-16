@@ -74,10 +74,11 @@ UserParameter=uwsgi_connect.status[*],/etc/dAppCluster/zabbix_scripts/uwsgi_stat
 - Graph设置
 <img src="docs/3.png">
 
+<img src="docs/4.png">
+
 已经添加完成。
 
 ##### 6.查看最终效果
 
-<img src="docs/4.png">
 <img src="docs/5.png">
 <img src="docs/6.png">
