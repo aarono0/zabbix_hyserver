@@ -1,4 +1,4 @@
-# zabbix_sina
+# zabbix_hyserver
 
 #### 基本配置
 
@@ -41,7 +41,7 @@ UserParameter=uwsgi_connect.status[*],/etc/dAppCluster/zabbix_scripts/uwsgi_stat
 ##### 4.在服务端进行测试是否成功
 
 ```
-# zabbix_get -s 10.13.32.183 -p 10050 -k uwsgi_status.discovery
+# zabbix_get -s 10.22.33.89 -p 10050 -k uwsgi_status.discovery
 {
        "data":[
               {
@@ -59,7 +59,7 @@ UserParameter=uwsgi_connect.status[*],/etc/dAppCluster/zabbix_scripts/uwsgi_stat
        ]
 }
 
-# zabbix_get -s 10.13.32.185 -p 10050 -k uwsgi_connect.status[-s,rss,-m,memory,-p,fast]
+# zabbix_get -s 10.22.33.89 -p 10050 -k uwsgi_connect.status[-s,rss,-m,memory,-p,fast]
 891
 ```
 
