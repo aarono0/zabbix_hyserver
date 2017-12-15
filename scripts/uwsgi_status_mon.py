@@ -98,7 +98,7 @@ class monitor_uwsgi:
         return list2
 
     def analysis_parameter(self,Pool,module,status):
-        dpool_sock = 'comment5.news.sina.com.cn-' + Pool + '-m.sock'
+        dpool_sock = 'hyserver.com.cn-' + Pool + '-m.sock'
         self.branch_pool(dpool_sock,module,status)
 
 
